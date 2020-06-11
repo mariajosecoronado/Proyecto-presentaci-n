@@ -1,0 +1,167 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Hind', sans-serif;
+    font-weight: normal;
+}
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+.logo{
+    margin-top: 5px;
+}
+.header{
+    background-color: #F26673;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+.principal{
+    height: 300px;
+    background-color: #F26673;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagenprincipal{
+    object-fit: cover;
+}
+h1{
+    color: white;
+}
+strong{
+    color:  red;
+}
+h2{
+    color:  red;
+    font-size: 24px;
+}
+.acercaDeMi{
+    background: #ECECEC;
+    padding: 20px;
+}
+.sobreMi{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.description-sobreMi{
+    font-size: 17px;
+}
+.subtitulo-sobreMi{
+    font-size: 12px;
+    font-weight: 900;
+}
+.titulo-sobreMi{
+    font-size: 30px;
+    font-weight: 900;
+}
+.lista-MasSobreMi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MasSobreMi{
+    width: 480px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #ECECEC;
+}
+.imagen-sobreMi{
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+.detalle-MasSobreMi{
+    margin: 20px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.contacto{
+    background-color: #F26673;
+    color: white;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.link-social{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.link-social.facebook{
+    background-size: 40px 40px;
+    background-image: url("https://img.icons8.com/color/48/000000/facebook.png");
+}
+.link-social.instagram{
+    background-size: 40px 40px;
+    background-image: url("https://img.icons8.com/fluent/48/000000/instagram-new.png");
+}
+.formulario-email imput{
+    border-color: gray;
+    padding: 150px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.formulario-email button{
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 0;
+    margin-block: 10px;
+}
+.footer{
+    background-color: #F386D3;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
